@@ -187,32 +187,26 @@ p {
     padding: 2.5em 0 2em 6em;
 }
 .work-info h4 {
-    font-size: 1.2em;
-    background: #808080;
-    display: inline-block;
-    padding: .6em 1.2em;
-    color: #fff;
-	position:relative;
+    font-size: 1.5em;
+    color: #000;
+    position:relative;
+    line-height: 1.2em;
 }
-.work-info h4:before {
+/* .work-info h4:before {
     width: 0;
     height: 0;
     position: absolute;
-	/*-- w3layouts --*/
     content: '';
     top: 9px;
     right: -14px;
     border-style: solid;
     border-width: 10px 0 10px 16px;
     border-color: transparent transparent transparent #808080;
-}
+} */
 .work-info h5 {
     font-size: 1.2em;
-    color: #FFD700;
-    margin-bottom: .5em;
-    border: 1px solid #FFD700;
-    display: inline-block;
-    padding: 0 1.2em;
+    color: #000;
+    line-height: 1.5em
 }
 .work-info h5 span.glyphicon {
     font-size: 0.9em;
